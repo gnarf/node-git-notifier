@@ -19,7 +19,7 @@ var root = require( "path" ).dirname( __filename ),
 	server = require( root + "/notifier" ).createServer(),
 	fs = require( "fs" ),
 	proc = require( "child_process" ),
-	logger = require( "logger" ).init( "notify-server" );
+	logger = require( "logger" ).init( "notifier-server" );
 
 directory = argv.d;
 
